@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1::after {
+        content: " Rana ";
+        color: red;
+
+    }
+
+    h1::before {
+        content: "Mr ";
+        color: aqua;
+        /*it is used to place any element or content before the targeted element*/
+    }
+
+    h1::first-letter {
+        background-color: brown;
+        /* it is to target first letter*/
+    }
+
+    h1::first-line {
+        text-align: center;
+        background-color: aqua;
+    }
+
+    li::marker {
+        content: "😍😍 ";
+        /*it is used only in list and to change the format */
+    }
+
+    p::selection{
+        background-color: black;
+        color: aqua;
+    }
+</style>
+
+<body>
+    <h1>Man of the match</h1>
+    <h1>Ashish Singh</h1>
+
+    <ol>
+        <li>list item1</li>
+        <li>list item2</li>
+        <li>list item3</li>
+        <li>list item4</li>
+    </ol>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aperiam molestiae repellendus dolorem molestias
+        libero modi corrupti voluptates atque, dolore voluptatum vel maxime eligendi fugiat repudiandae amet, tenetur
+        possimus quos accusantium expedita?</p>
+</body>
+
+</html>

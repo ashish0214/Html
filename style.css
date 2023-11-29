@@ -1,0 +1,21 @@
+*{
+    align-content: center;
+}
+th{
+    background-color: lightyellow;
+    color: darkred;
+}
+
+.course{
+    color: orangered;
+}
+.lists{
+    color: red;
+}
+.sir{
+    color:rgb(255, 115, 0)
+}
+.duration{
+    color: rgb(255, 0, 0);
+}
+

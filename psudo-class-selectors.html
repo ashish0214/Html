@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psudo class selectors</title>
+    <style>
+    a:link{
+    background-color: aqua;
+    }
+    a:visited{
+        color: red;
+    }
+    a:active{
+        background-color: aqua;
+        color: black;
+    }
+    h1:hover{
+        font-size: x-large;
+        background-color: yellow;
+        color: red;
+    }
+
+    p:first-child{
+        background-color: aqua;
+    };
+    p:first-of-type{
+        color: red;
+    }
+    p:last-child{
+        background-color: pink;
+       
+    }
+    p:last-of-type{
+     color:red;
+    }
+    p:nth-child(2){
+        background-color: black;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <a href="https://google.com">google</a>
+
+        <h1>Ashish Singh Rana</h1>
+    </div>
+    <div>
+        <h1>Structural psudo class selector</h1>
+        <p>head1</p>
+        <p>head2</p>
+        <p>head3</p>
+        <div>
+            <p>para1</p>
+            <p>para2</p>
+            <p>para3</p>
+
+                </div>
+        <p>head4</p>
+        <p>head5</p>
+        <p>head6</p>
+    </div>
+
+
+</body>
+</html>
